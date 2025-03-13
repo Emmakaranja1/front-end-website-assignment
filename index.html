@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest-Like Liker App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pinterest-Like App</h1>
+            <p>Click on the "Like" button to like the pins.</p>
+        </header>
+
+        <div class="pins-grid">
+            <div class="pin">
+                <img src="https://i.pinimg.com/236x/a5/4b/f4/a54bf4dddd898c6172beda106217d3d0.jpg" alt="Pin 1">
+                <div class="overlay">
+                    <button class="like-button" data-likes="0">Like</button>
+                    <p class="like-count">0 Likes</p>
+                </div>
+            </div>
+            <div class="pin">
+                <img src="https://i.pinimg.com/236x/a2/1b/b1/a21bb168773702d902ea1de7d95497e2.jpg" alt="Pin 2">
+                <div class="overlay">
+                    <button class="like-button" data-likes="0">Like</button>
+                    <p class="like-count">0 Likes</p>
+                </div>
+            </div>
+            <div class="pin">
+                <img src="https://i.pinimg.com/236x/b1/95/65/b19565766838f2f53ac2857a11f9c6e3.jpg" alt="Pin 3">
+                <div class="overlay">
+                    <button class="like-button" data-likes="0">Like</button>
+                    <p class="like-count">0 Likes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="like-notification" class="notification">
+        <span class="icon">❤️</span> <span class="message">You liked a pin!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
